@@ -2,12 +2,12 @@
 
 import { motion } from 'framer-motion'
 import SectionLabel from '../ui/SectionLabel'
-import { experience } from '@/data/experience'
+import { experience } from '../../data/experience'
 
 export default function Experience() {
   return (
     <section className="relative py-24 px-6 md:px-16 z-10">
-      <div className="max-w-4xl mx-auto">
+      <div className="max-w-7xl mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}

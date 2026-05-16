@@ -7,6 +7,7 @@ import Preloader from '@/components/ui/Preloader'
 import ScrollProgress from '@/components/ui/ScrollProgress'
 
 export const metadata = {
+  metadataBase: new URL('https://siddhivinayak.vercel.app'),
   title: 'Siddhi Vinayak | Portfolio',
   description: 'Personal portfolio of Siddhi Vinayak, EEE student, UI/UX designer, and frontend developer.',
   openGraph: {

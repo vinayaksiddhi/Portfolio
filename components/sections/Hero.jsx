@@ -78,12 +78,20 @@ export default function Hero() {
           animate={startAnim ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
           transition={{ duration: 0.8, delay: 1.1, ease: "easeOut" }}
         >
-          <MagneticButton 
-            className="bg-neon-cyan/10 border-neon-cyan/30 text-neon-cyan hover:bg-neon-cyan/20"
-            onClick={() => document.getElementById('projects')?.scrollIntoView({ behavior: 'smooth' })}
-          >
-            View my work &rarr;
-          </MagneticButton>
+          <div className="flex flex-col sm:flex-row items-center gap-4">
+            <MagneticButton 
+              className="bg-neon-cyan/10 border-neon-cyan/30 text-neon-cyan hover:bg-neon-cyan/20"
+              onClick={() => document.getElementById('projects')?.scrollIntoView({ behavior: 'smooth' })}
+            >
+              View my work &rarr;
+            </MagneticButton>
+            <MagneticButton
+              className="bg-white/5 border-white/20 text-white/80 hover:bg-white/10 hover:border-white/40"
+              onClick={() => window.open('https://github.com/vinayaksiddhi', '_blank', 'noopener,noreferrer')}
+            >
+              GitHub ↗
+            </MagneticButton>
+          </div>
         </motion.div>
       </div>
       
