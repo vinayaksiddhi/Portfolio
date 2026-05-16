@@ -5,7 +5,7 @@ export const hackathons = [
     project: "Syntax Pay",
     description: "A fintech product which is a payments and investment platform for GenZ",
     date: "Nov 2025",
-    link: "#"
+    link: "https://github.com/harshitrajj23/Syntax_Squad"
   },
   {
     id: "02",
